@@ -30,3 +30,5 @@ Considerando la cadena: dabAcCaCBAcCcaDA
 
 Dada una cadena de moléculas que conforman un polímero, se debe llegar al caso
 base, donde no haya ninguna molécula que reacciona con otra.
+
+Más info en https://adventofcode.com/2018/day/5
