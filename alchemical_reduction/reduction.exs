@@ -62,7 +62,7 @@ defmodule Reaction do
 
 end
 
-{:ok, data} = DataLoader.load("data")
+{:ok, data} = DataLoader.load("test_data.txt")
 
 
 IO.inspect Reaction.process(data)
