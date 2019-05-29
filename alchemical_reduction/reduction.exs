@@ -1,7 +1,7 @@
 defmodule DataLoader do
   def load(file) do
     case File.read(file) do
-      {:ok, data} -> {:ok, String.codepoints(String.trim(data))}
+      {:ok, data} -> {:ok, data |> String.trim() |> String.codepoints()}
       {:error, err} -> {:error, err}
     end
   end
